@@ -1,0 +1,12 @@
+[package]
+name = "chrono-watch"
+version = "0.1.0"
+authors = ["pulakk <pulakkuli72@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "cwatch"
+path = "src/main.rs"
+
+[dependencies]
+textplots = "0.6"
