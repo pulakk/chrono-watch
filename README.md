@@ -29,4 +29,14 @@ Plot history
 ```
 
 ## Installation
-Download latest binary for your specific OS from Github releases or build manually using `cargo build`.
+Download [latest pre-built binary](https://github.com/pulakk/chrono-watch/releases/latest/download/cwatch-linux-x86_64.tar.gz) for linux from Github releases.
+
+```bash
+# Install
+wget -O - https://github.com/pulakk/chrono-watch/releases/latest/download/cwatch-linux-x86_64.tar.gz | tar -xvf -
+
+# Run
+./cwatch
+```
+
+You may build manually using `cargo build` for other OSes.
